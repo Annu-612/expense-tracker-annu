@@ -84,7 +84,7 @@ expense-tracker/
 1. Clone the repository:
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/Annu-612/expense-tracker-annu.git
 ```
 
 2. Open the project folder.
@@ -244,13 +244,13 @@ The application uses the browser's **Local Storage API** to persist transaction 
 Before storing the transaction array, it is converted into a JSON string using:
 
 ```javascript
-JSON.stringify()
+JSON.stringify();
 ```
 
 When the application starts, the stored JSON data is converted back into JavaScript objects using:
 
 ```javascript
-JSON.parse()
+JSON.parse();
 ```
 
 This allows transaction data to remain available after refreshing the page.
